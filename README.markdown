@@ -22,3 +22,7 @@ http://maps.google.com/maps?q=Truth+or+Consequences,+NM&hl=en&sll=37.0625,-95.67
 
     (geohash/decode "9yefyg40dwz2")
     ;= [-47.838533939793706 74.12500010803342]
+
+## License
+
+geohash is licensed under the Eclipse Public License v1.0.
