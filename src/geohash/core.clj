@@ -1,5 +1,6 @@
 (ns geohash.core
   "Geohashing functions for Clojure."
+  (:refer-clojure :exclude (interleave))
   (:require [clojure.set :as set]))
 
 (def ^:private alphabet (vec "0123456789bcdefghjkmnpqrstuvwxyz"))
