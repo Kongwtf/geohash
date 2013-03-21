@@ -32,7 +32,7 @@
   determine which side of the interval to return."
   [[lo hi] n bits]
   (let [[r-lo r-hi] (reduce (fn [[lo hi] b]
-                              (let [med (+ lo (/ (- hi lo) 2))]
+                              (let [med (/ (+ hi lo) 2)]
                                 (if (bit-test n b)
                                   [med hi]
                                   [lo med])))
